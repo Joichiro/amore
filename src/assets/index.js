@@ -13,7 +13,7 @@ import numberTwo from './icons/number2.png';
 import numberThree from './icons/number3.png';
 import numberFour from './icons/number4.png';
 import paperBg from './paper-bg.png';
-import roadmapBoxBg from './roadmap-box-bg.png';
+import rodmapBoxBg from './rodmap-box-bg.png';
 import moneyHeart from './money-heart.png'
 import heartTwo from './icons/heart-two.png';
 import tokenHeart from './icons/token-heart.png'
@@ -29,7 +29,7 @@ import mediaArrow from './icons/media-arrow.svg';
 import bestIcon from './icons/best.svg';
 import footerLogo from './icons/footer-logo.svg';
 import iIcon from './icons/i.svg'
-import tokenomics from '../assets/tokenomics.png';
+import tokenMain from './tokenomiks-main.svg'
 
 export default {
 	amoreLogo,
@@ -46,7 +46,7 @@ export default {
 	numberTwo,
 	numberThree,
 	paperBg,
-	roadmapBoxBg,
+	rodmapBoxBg,
 	moneyHeart,
 	tokenHeart,
 	heartTwo,
@@ -63,5 +63,5 @@ export default {
 	bestIcon,
 	footerLogo,
 	iIcon,
-	tokenomics
+	tokenMain
 }

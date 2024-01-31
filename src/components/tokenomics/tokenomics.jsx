@@ -8,7 +8,9 @@ export const Tokenomics = () => {
 					<img className="money-heart" src={assets.moneyHeart} alt="money heart img" height='162' />
 					<h2 className="title-text">TOKENOMICS</h2>
 					<img className="token-heart" src={assets.tokenHeart} alt="heart" />
-					<img className="token-heart" src={assets.tokenomics} alt="heart" />
+				</div>
+				<div className="tokenomiks-main__img">
+					<img src={assets.tokenMain} alt="" />
 				</div>
 			</div>
 			<img className="tokenomics-heart" src={assets.heartTwo} alt="heart" />
