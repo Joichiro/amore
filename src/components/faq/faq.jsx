@@ -10,41 +10,41 @@ export const Faq = () => {
 						<h2 className="title-text">FAQ</h2>
 					</div>
 					<div className="faq-content__box">
-						<h4 className='faq-content__title'>What happens in Phase 2 of the $AMORE project?</h4>
+						<h4 className='faq-content__title'>How can I participate in airdrop?</h4>
 						<p className='faq-content__info'>
-							Phase 2 focuses on searching $AMORE, including listing on centralized exchanges, deepening partnerships within and beyond the Solana ecosystem, and introducing a $AMORE meter on the website.
+						To participate, you need to follow our social media updates and meet certain conditions that will be announced on 14 February.
 						</p>
 						<img className='faq-content__line' src={assets.line} alt="line img" width='100%' />
 					</div>
 
 					<div className="faq-content__box">
-						<h4 className='faq-content__title'>What is the significance of Phase 1 in the $AMORE project?</h4>
+						<h4 className='faq-content__title'>How can I be sure of the safety and reliability of $AMORE?</h4>
 						<p className='faq-content__info'>
-							Phase 1 involves creating $AMORE through NFT to Earn, initiating staking of NFTs, creating a liquidity pool on Raydium/Orca, and applying for listings on centralized exchanges.
+						We attach great importance to the security and transparency of our project. The entire process of developing and launching $AMORE is accompanied by audits and scrutiny to ensure its reliability and safety for all participants.
 						</p>
 						<img className='faq-content__line' src={assets.line} alt="line img" width='100%' />
 					</div>
 
 					<div className="faq-content__box">
-						<h4 className='faq-content__title'>What is the goal of Phase 3 in the $AMORE project?</h4>
+						<h4 className='faq-content__title'>What are $AMORE's plans for the future and how will the project adapt to changes in the market?</h4>
 						<p className='faq-content__info'>
-							Phase 3 aims to ensure $AMORE reaches everyone and dominates the memetoken world, establishing a clear and impactful presence in the market.
+						Our long-term plan includes not only developing and strengthening the $AMORE ecosystem, but also constantly updating and adapting our strategy according to market trends and community feedback. We are eager to innovate and ready to accept new ideas and approaches to improve our project
 						</p>
 						<img className='faq-content__line' src={assets.line} alt="line img" width='100%' />
 					</div>
 
 					<div className="faq-content__box">
-						<h4 className='faq-content__title'>What is the initial market cap for the $AMORE token?</h4>
+						<h4 className='faq-content__title'>Will $AMORE tokens be burned, and how will this affect its value?</h4>
 						<p className='faq-content__info'>
-							The initial Fully Diluted Valuation (FDV) market cap for the $AMORE token is projected to be $10M.
+						We are currently considering introducing a $AMORE token burning mechanism in the future, which could reduce the total number of tokens in circulation and potentially increase their value. However, this will depend on the team's strategic decisions and community feedback.
 						</p>
 						<img className='faq-content__line' src={assets.line} alt="line img" width='100%' />
 					</div>
 
 					<div className="faq-content__box">
-						<h4 className='faq-content__title'>What is the initial market cap for the $AMORE token?What happens in Phase 2 of the $AMORE project?</h4>
+						<h4 className='faq-content__title'>How will the total supply of $AMORE tokens be regulated?</h4>
 						<p className='faq-content__info'>
-							Phase 2 focuses on searching $AMORE, including listing on centralized exchanges, deepening partnerships within and beyond the Solana ecosystem, and introducing a $AMORE meter on the website.
+						The total supply of $AMORE tokens is strictly limited, meaning that once a certain number of tokens are issued, no more new tokens will be created, which provides protection against inflation and promotes token value on the market.
 						</p>
 						<img className='faq-content__line' src={assets.line} alt="line img" width='100%' />
 					</div>
