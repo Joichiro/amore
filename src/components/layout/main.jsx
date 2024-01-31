@@ -1,7 +1,7 @@
 import { GetValentine } from "../valentine/get-valentine"
 import { Intro } from "../intro/intro"
 import { Amore } from "../amore/amore"
-import { Rodmap } from "../rodmap/rodmap"
+import { roadmap } from "../roadmap/roadmap";
 import { Tokenomics } from "../tokenomics/tokenomics"
 import { Faq } from "../faq/faq"
 
@@ -12,7 +12,7 @@ export const Main = () => {
 			<GetValentine />
 			<div className="container">
 				<Amore />
-				<Rodmap />
+				<roadmap />
 			</div>
 			<Tokenomics />
 			<Faq />

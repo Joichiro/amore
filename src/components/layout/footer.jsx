@@ -21,7 +21,7 @@ export const Footer = () => {
 					<nav>
 						<ul className='nav-list'>
 							<li className="nav-item">
-								<a href="#rodmap" className="nav-link">ROADMAP</a>
+								<a href="#roadmap" className="nav-link">ROADMAP</a>
 							</li>
 							<li className="nav-item">
 								<a href="#tokenomics" className="nav-link">TOKENOMICS</a>

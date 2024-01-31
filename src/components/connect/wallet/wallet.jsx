@@ -46,19 +46,6 @@ export const ConnectWallet = () => {
                   </button>
                 );
               }
-              return (
-                <div style={{ display: 'flex', gap: 12 }}>
-                  <button
-                    onClick={openChainModal}
-                    style={{ display: 'flex', alignItems: 'center' }}
-                    type="button"
-                  >
-                  </button>
-                  <button onClick={openAccountModal} type="button">
-                  <a href="#!" style={{ display: 'block' }} className="valentine-card__title">WALLET CONNECTED</a>
-                  </button>
-                </div>
-              );
             })()}
           </div>
         );

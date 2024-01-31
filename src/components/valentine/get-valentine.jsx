@@ -11,7 +11,7 @@ export const GetValentine = () => {
 			<div className="container">
 				<div className="valentine-content">
 					<div className="title">
-						<h2 className="title-text">Get Valentine</h2>
+						<h2 className="title-text" id='get_valentine'>Get Valentine</h2>
 					</div>
 					<ValentineCard
 						contentTop='CONNECT TWITTER'

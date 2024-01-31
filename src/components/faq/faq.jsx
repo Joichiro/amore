@@ -10,41 +10,41 @@ export const Faq = () => {
 						<h2 className="title-text">FAQ</h2>
 					</div>
 					<div className="faq-content__box">
-						<h4 className='faq-content__title'>What happens in Phase 2 of the $LOVE project?</h4>
+						<h4 className='faq-content__title'>What happens in Phase 2 of the $AMORE project?</h4>
 						<p className='faq-content__info'>
-							Phase 2 focuses on searching $LOVE, including listing on centralized exchanges, deepening partnerships within and beyond the Solana ecosystem, and introducing a $LOVE meter on the website.
+							Phase 2 focuses on searching $AMORE, including listing on centralized exchanges, deepening partnerships within and beyond the Solana ecosystem, and introducing a $AMORE meter on the website.
 						</p>
 						<img className='faq-content__line' src={assets.line} alt="line img" width='100%' />
 					</div>
 
 					<div className="faq-content__box">
-						<h4 className='faq-content__title'>What is the significance of Phase 1 in the $LOVE project?</h4>
+						<h4 className='faq-content__title'>What is the significance of Phase 1 in the $AMORE project?</h4>
 						<p className='faq-content__info'>
-							Phase 1 involves creating $LOVE through NFT to Earn, initiating staking of NFTs, creating a liquidity pool on Raydium/Orca, and applying for listings on centralized exchanges.
+							Phase 1 involves creating $AMORE through NFT to Earn, initiating staking of NFTs, creating a liquidity pool on Raydium/Orca, and applying for listings on centralized exchanges.
 						</p>
 						<img className='faq-content__line' src={assets.line} alt="line img" width='100%' />
 					</div>
 
 					<div className="faq-content__box">
-						<h4 className='faq-content__title'>What is the goal of Phase 3 in the $LOVE project?</h4>
+						<h4 className='faq-content__title'>What is the goal of Phase 3 in the $AMORE project?</h4>
 						<p className='faq-content__info'>
-							Phase 3 aims to ensure $LOVE reaches everyone and dominates the memetoken world, establishing a clear and impactful presence in the market.
+							Phase 3 aims to ensure $AMORE reaches everyone and dominates the memetoken world, establishing a clear and impactful presence in the market.
 						</p>
 						<img className='faq-content__line' src={assets.line} alt="line img" width='100%' />
 					</div>
 
 					<div className="faq-content__box">
-						<h4 className='faq-content__title'>What is the initial market cap for the $LOVE token?</h4>
+						<h4 className='faq-content__title'>What is the initial market cap for the $AMORE token?</h4>
 						<p className='faq-content__info'>
-							The initial Fully Diluted Valuation (FDV) market cap for the $LOVE token is projected to be $10M.
+							The initial Fully Diluted Valuation (FDV) market cap for the $AMORE token is projected to be $10M.
 						</p>
 						<img className='faq-content__line' src={assets.line} alt="line img" width='100%' />
 					</div>
 
 					<div className="faq-content__box">
-						<h4 className='faq-content__title'>What is the initial market cap for the $LOVE token?What happens in Phase 2 of the $LOVE project?</h4>
+						<h4 className='faq-content__title'>What is the initial market cap for the $AMORE token?What happens in Phase 2 of the $AMORE project?</h4>
 						<p className='faq-content__info'>
-							Phase 2 focuses on searching $LOVE, including listing on centralized exchanges, deepening partnerships within and beyond the Solana ecosystem, and introducing a $LOVE meter on the website.
+							Phase 2 focuses on searching $AMORE, including listing on centralized exchanges, deepening partnerships within and beyond the Solana ecosystem, and introducing a $AMORE meter on the website.
 						</p>
 						<img className='faq-content__line' src={assets.line} alt="line img" width='100%' />
 					</div>
