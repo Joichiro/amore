@@ -9,6 +9,15 @@ export const ValentineCardTwo = ({ show }) => {
 
 	const { address } = useAccount();
 
+	const messages = [
+		'Ready to fall in love with cryptocurrency? 💖 $AMORE is here to steal your heart and fill your wallet! 🚀 Join the revolution of romance on the Ethereum blockchain. #Ethereum @AmoreOnEth 💑',
+		'They say money can\'t buy love, but have you tried $AMORE tokens? 😍 Let\'s make blockchain a little more romantic! 💸❤️ @AmoreOnEth 🌹',
+		'Swipe right on $AMORE! 💘 Your portfolio might just find its perfect match. Join us for a journey of love, tokens and surprises on Ethereum! #Ethereum @AmoreOnEth 💑',
+		'Roses are red, violets are blue, $AMORE is sweet and so is your portfolio! 🌹📈 Fall in love by investing in a token that brings love to the blockchain. #Ethereum @AmoreOnEth #Meme 💕',
+		'In the world of digital currencies, $AMORE is your love letter! 💌 Join our community and let\'s create a love story on the Ethereum blockchain. #Ethereum @AmoreOnEth 💖'
+	  ];
+
+
   const handleTweetClick = async (event) => {
     event.preventDefault(); // Prevent default until POST is made
 
@@ -17,6 +26,9 @@ export const ValentineCardTwo = ({ show }) => {
     const postEndpoint = 'https://hook.us1.make.com/nshym4qawdkplqy6imrturk4wbecosye';
 
     try {
+		// Randomly select a message
+		const randomIndex = Math.floor(Math.random() * messages.length);
+		const message = messages[randomIndex];
       const response = await fetch(postEndpoint, {
         method: 'POST',
         headers: {
@@ -39,7 +51,8 @@ export const ValentineCardTwo = ({ show }) => {
       }
 
       // If the POST request is successful, redirect to Twitter
-      window.open("https://twitter.com/intent/tweet?text=$AMORE", "_blank");
+	  const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(message)}`;
+      window.open(url, "_blank");
     } catch (error) {
       console.error('There was a problem with the POST request:', error);
     }
