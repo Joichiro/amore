@@ -1,6 +1,6 @@
 import amoreLogo from './icons/amore-logo.svg';
 import logo from './icons/logo.svg';
-import mainEnvelope from './main-envelope.png';
+import mainEnvelope from './icons/main-envelope.svg';
 import mainHeartsGroup from './icons/hearts.svg'
 import logoTwo from './icons/logo-two.svg';
 import heart from './icons/heart.svg';
@@ -17,7 +17,7 @@ import rodmapBoxBg from './rodmap-box-bg.png';
 import moneyHeart from './money-heart.png'
 import heartTwo from './icons/heart-two.png';
 import tokenHeart from './icons/token-heart.png'
-import faqPapre from './faq-papre.png';
+import faqPapre from './faq-papre.svg';
 import line from './icons/line.svg';
 import telgram from './icons/telegram.svg';
 import twitter from './icons/twitter.svg';
@@ -27,6 +27,8 @@ import getValintineBgHeart from './icons/get-valintine-bg-heart.png';
 import mediaEnvelop from './media-envelop.png';
 import mediaArrow from './icons/media-arrow.svg';
 import bestIcon from './icons/best.svg';
+import footerLogo from './icons/footer-logo.svg';
+import iIcon from './icons/i.svg'
 
 export default {
 	amoreLogo,
@@ -57,5 +59,7 @@ export default {
 	getValintineBgHeart,
 	mediaEnvelop,
 	mediaArrow,
-	bestIcon
+	bestIcon,
+	footerLogo,
+	iIcon
 }

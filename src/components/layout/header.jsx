@@ -28,7 +28,10 @@ export const Header = () => {
 							</div>
 						</li>
 						<a className='get-valentine__btn' href="#!">
-							<img src={assets.getValintineIcon} alt="" />
+							Get Valent
+							<span className='i-text'>i<img className='i-icon' src={assets.iIcon} alt="" /></span>
+							ne
+
 						</a>
 					</ul>
 				</nav>

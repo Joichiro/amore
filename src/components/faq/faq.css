@@ -1,5 +1,5 @@
 .faq-section {
-	background-image: url(../../assets/faq-papre.png);
+	background-image: url(../../assets/faq-papre.svg); 
 	background-repeat: no-repeat;
 	background-size: 510.856px 87%;
 	/* background-size: 40% 100%; */
@@ -26,12 +26,6 @@
 }
 
 @media screen and (max-width: 1250px) {
-	.faq-section {
-		background-size: 241.856px 50%;
-	}
-}
-
-@media screen and (max-width: 992px) {
 	.faq-section {
 		background-image: none;
 	}
