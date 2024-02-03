@@ -33,7 +33,7 @@ export const Policy = () => {
 					<p>
                         A means of exchange, accepted by the public (or a part of it) as payment for goods or services, or for the settlement of debts.
                         A method of payment for goods or services, whether through the <b>$AMORE project or otherwise.</b><br></br>
-						A means of exchanging MEME for goods or services.
+						A means of exchanging <b>$AMORE</b> for goods or services.
                         A representation of money (including electronic money).
                         A digital representation of a capital market product, security, share, debt obligation, unit in a collective investment scheme, derivative contract, commodity, or any other kind of financial instrument or investment in any jurisdiction.
                         <br></br>
