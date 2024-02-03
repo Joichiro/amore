@@ -1,0 +1,151 @@
+@font-face {
+    font-family: "Chekharda";
+    src: url("../fonts/Chekharda/Chekharda-BoldItalic.ttf")
+}
+
+.policy_page {
+    height: 100%;
+    padding: 16px 0 73px 0;
+    background-image: url('../policy_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.policy p {
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 39px;
+    letter-spacing: 0%;
+    margin-bottom: 40px;
+}
+
+.policy_circle {
+    margin-bottom: 16px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.policy_circle h6 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-family: 'Chekharda',sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.language .heart_left {
+    color: rgb(85, 79, 193);
+    font-family: 'Montserrat',sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0%;
+}
+
+header .container {
+    display: flex;
+}
+
+header .container .header-log {
+    flex: 1;
+}
+header .container .language {
+    flex: 1;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.language .heart_mini {
+    color: rgb(245, 245, 245);
+    font-family: 'Montserrat',sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0%;
+}
+
+.heart_mini {
+    position: relative;
+}
+
+.heart_mini span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 993px) {
+    .policy_circle {
+        margin: 28px 0 22px 0;
+    }
+
+    .policy_circle  img {
+        width: 157px;
+    }
+
+    .policy_circle h6 {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+    }
+
+    .policy p {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0%;
+        margin-bottom: 16px;
+    }
+
+    header {
+        position: absolute;
+    }
+
+    header .header-log img {
+        width: 43px;
+        height: 70px;
+        margin-bottom: 19px;
+    }
+
+    header .container {
+        flex-direction: column;
+    }
+
+    header .container .heart_left{
+        font-size: 7px;
+        font-weight: 500;
+        line-height: 9px;
+        letter-spacing: 0%;
+        display: block;
+    }
+
+    header .container .heart_mini{
+        font-size: 7px;
+        font-weight: 500;
+        line-height: 9px;
+        letter-spacing: 0%;
+        display: block;
+    }
+
+    .language {
+        gap: 5px;
+    }
+
+    header .container .heart_mini img {
+        width: 27px;
+    }
+}

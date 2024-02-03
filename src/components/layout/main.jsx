@@ -4,6 +4,8 @@ import { Amore } from "../amore/amore"
 import { Roadmap } from "../roadmap/roadmap";
 import { Tokenomics } from "../tokenomics/tokenomics"
 import { Faq } from "../faq/faq"
+import { Team } from "../team/team"
+
 
 export const Main = () => {
 	return (
@@ -16,6 +18,7 @@ export const Main = () => {
 			</div>
 			<Tokenomics />
 			<Faq />
+			<Team />
 		</main>
 	)
 }

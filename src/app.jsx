@@ -1,5 +1,6 @@
-import { Footer, Header } from "./components/layout";
-import { Main } from "./components/layout/main";
+import { Home } from "./pages/home"
+import { Policy } from "./pages/policy"
+import { BrowserRouter , Routes, Route } from 'react-router-dom';
 import '@rainbow-me/rainbowkit/styles.css';
 import { getDefaultWallets, RainbowKitProvider } from '@rainbow-me/rainbowkit';
 import { configureChains, createConfig, WagmiConfig } from 'wagmi';
@@ -35,9 +36,12 @@ export const App = () => {
 		<div className="wrapper">
 			<WagmiConfig config={wagmiConfig}>
       			<RainbowKitProvider chains={chains}>
-					<Header />
-					<Main />
-					<Footer />
+				  <BrowserRouter>
+					<Routes>
+						<Route path="/" element={<Home />} />
+						<Route path="/policy" element={<Policy />} />
+					</Routes>
+					</BrowserRouter>
 				</RainbowKitProvider>
 			</WagmiConfig>
 		</div>
