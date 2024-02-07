@@ -18,7 +18,7 @@ export const Main = () => {
 			</div>
 			<Tokenomics />
 			<Faq />
-			<Team />
+			{/*<Team />*/}
 		</main>
 	)
 }
